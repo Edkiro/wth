@@ -24,4 +24,4 @@ jobs:
         subscriptionId : ${{ secrets.WTH_SUBSCRIPTION_ID }}
         resourceGroupName: ${{ secrets.WTH_RESOURCEGROUP }}
         template: ./ARM-Templates/container-webapp-template.json
-        parameters: webAppName=wth-QMIJ2-${{ github.event.inputs.appenvironment }} hostingPlanName=wth-QMIJ2-${{ github.event.inputs.appenvironment }}
+        parameters: webAppName=wth-QMIJ2-${{ github.event.inputs.appenvironment }}
