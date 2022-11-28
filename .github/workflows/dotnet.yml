@@ -3,7 +3,7 @@
 env:
   registryName: qmij2devopsreg.azurecr.io
   repositoryName: wth/dotnetcoreapp
-  dockerFolderPath: ./Application/src/RazorPagesTestSample
+  dockerFolderPath: ./wth/Application/src/RazorPagesTestSample
   tag: ${{ github.run_number }}
 
 name: .NET
