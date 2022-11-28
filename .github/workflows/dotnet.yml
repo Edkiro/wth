@@ -8,13 +8,13 @@ on:
     branches:
      - main
     paths:
-     - 'Application/**'    
+     - '.Application/**'    
     
   pull_request:
     branches:
      - main
     paths:
-     - 'Application/**'
+     - '.Application/**'
   workflow_dispatch:   
 jobs:
   build:
