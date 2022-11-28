@@ -8,14 +8,14 @@ on:
     branches:
      - main
     paths:
-     - 'application/**'    
+     - 'Application/**'    
     
   pull_request:
     branches:
      - main
     paths:
-     - 'application/**'
-     
+     - 'Application/**'
+  workflow_dispatch:   
 jobs:
   build:
 
